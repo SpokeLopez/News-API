@@ -17,8 +17,9 @@ $url = 'https://newsapi.org/v2/everything?domains=techcrunch.com&apiKey=2c867160
 $respuesta = file_get_contents($url);
 $NoticiaData = json_decode($respuesta);
 ?>
-<div class="jumbotron">
-    <h1>Google News API | Suner And Garcia</h1>
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="text-center">Google News API </h1>
+    <p class="lead text-center">Suner And Garcia.</p>
 </div>
 <div class="container-fluid">
     <?php
